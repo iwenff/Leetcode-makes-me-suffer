@@ -14,6 +14,6 @@ function mergeTwoLists(list1, list2) {
     }
     current.next = list1 !== null ? list1 : list2;
   
-    return dummyy.next;
+    return dummyy.next
   }
   
